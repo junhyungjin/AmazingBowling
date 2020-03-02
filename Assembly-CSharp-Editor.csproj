@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5475742D-527F-0459-FD51-B25C816A75BC}</ProjectGuid>
+    <ProjectGuid>{442C7EE9-ECBA-5B58-3A3C-35B5B974E05A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -47,37 +47,37 @@
   <ItemGroup>     <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
      <None Include="Assets\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -278,10 +278,10 @@
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="PackageManagerAssembly">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/hjjun/UnityProjects/Amazing Bowling/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/hjjun/UnityProjects/AmazingBowling/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -646,7 +646,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{685DBB39-B3D3-BF81-E816-2A099FDE97A9}</Project>
+      <Project>{00E88B9A-B836-232E-BE02-0056B3757CD4}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

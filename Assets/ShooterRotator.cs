@@ -14,39 +14,40 @@ public class ShooterRotator : MonoBehaviour
 
    void Update()
    {
-       if(state == RotateState.Idle)
+       switch(state)
        {
-           if(Input.GetButtonDown("Fire1"))
-           {
-               state = RotateState.Horizontal;
-               Debug.Log(state);
+           case RotateState.Idle:
+                if(Input.GetButtonDown("Fire1"))
+                {
+                    state = RotateState.Horizontal;
+                    Debug.Log(state);
 
-           }
-       }
-       else if(state == RotateState.Horizontal)
-       {
-           if(Input.GetButton("Fire1"))
-           {
-               transform.Rotate(new Vector3(0, horizontalRotateSpeed * Time.deltaTime,0));
-           }
-           else if (Input.GetButtonUp("Fire1"))
-           {
-               state = RotateState.Vertical;
-               Debug.Log(state);
-           }
-       }
-       else if(state == RotateState.Vertical)
-       {
-           if(Input.GetButton("Fire1"))
-           {
-               transform.Rotate(new Vector3(-verticalRotateSpeed*Time.deltaTime,0,0));
-           }
-           else if(Input.GetButtonUp("Fire1"))
-           {
-               state = RotateState.Ready;
-               Debug.Log(state);
-           }
+                }
+           break;
+           case RotateState.Horizontal:
+                if(Input.GetButton("Fire1"))
+                {
+                    transform.Rotate(new Vector3(0, horizontalRotateSpeed * Time.deltaTime,0));
+                }
+                else if (Input.GetButtonUp("Fire1"))
+                {
+                    state = RotateState.Vertical;
+                    Debug.Log(state);
+                }
+           break;
+           case RotateState.Vertical:
+                if(Input.GetButton("Fire1"))
+                {
+                    transform.Rotate(new Vector3(-verticalRotateSpeed*Time.deltaTime,0,0));
+                }
+                else if(Input.GetButtonUp("Fire1"))
+                {
+                    state = RotateState.Ready;
+                    Debug.Log(state);
+                }
+           break;
+           case RotateState.Ready:
+           break;
        }
    }
-    
 }
