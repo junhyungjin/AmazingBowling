@@ -123,6 +123,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13701433d0274402eb6edc2077cf58bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionParticle: {fileID: 2116635664900222290}
+  explosionAudio: {fileID: 8652335941955971587}
+  maxDamage: 100
+  explosionForce: 1000
+  lifeTime: 10
+  explosionRadius: 20
 --- !u!1001 &157968515915681268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -134,11 +140,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlasmaExplosionEffect
-      objectReference: {fileID: 0}
-    - target: {fileID: 2148807596733267004, guid: 1564d677367f7458ab6c121644c834c1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2152616596264283494, guid: 1564d677367f7458ab6c121644c834c1,
         type: 3}
@@ -195,11 +196,48 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2265024099620577446, guid: 1564d677367f7458ab6c121644c834c1,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265024089602467108, guid: 1564d677367f7458ab6c121644c834c1,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265024089333063898, guid: 1564d677367f7458ab6c121644c834c1,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265024089111128722, guid: 1564d677367f7458ab6c121644c834c1,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265024088861694222, guid: 1564d677367f7458ab6c121644c834c1,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1564d677367f7458ab6c121644c834c1, type: 3}
 --- !u!4 &2300942368199205010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2152616596264283494, guid: 1564d677367f7458ab6c121644c834c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 157968515915681268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2116635664900222290 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2265024099620577446, guid: 1564d677367f7458ab6c121644c834c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 157968515915681268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8652335941955971587 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8800722194959755255, guid: 1564d677367f7458ab6c121644c834c1,
     type: 3}
   m_PrefabInstance: {fileID: 157968515915681268}
   m_PrefabAsset: {fileID: 0}
